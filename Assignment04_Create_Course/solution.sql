@@ -1,5 +1,6 @@
--- Create Course table
-
--- Insert three records
-
--- Display structure
+CREATE TABLE Course (
+    CourseID INT PRIMARY KEY,
+    CourseName VARCHAR(100),
+    Credits INT,
+    DepartmentID INT
+);
